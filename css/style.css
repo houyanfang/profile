@@ -1,0 +1,314 @@
+body{
+	font-family:"arial, helvetica, sans-serif";
+}
+.clearfix{
+	display:block;
+}
+.opacity{
+	opacity: .5;
+}
+.clearfix:after{
+	content: ".";
+	height: 0;
+	overflow: hidden;
+	line-height: 0;
+	clear: both;
+}
+#header{
+	width:100%;
+	height: 126px;
+	position: fixed;
+	left: 0;
+	top:0;
+	margin-left: auto;
+	margin-right:auto;
+	background:#000;
+	z-index: 1000;
+}
+#menu{
+	text-align: center;
+	margin: 0 auto;
+	list-style: none;
+}
+#menu li{
+	float: left;
+	text-align: center;
+	margin-top:5%;
+	margin-left:1em;
+}
+#menu li a{
+	display: block;
+	padding:0.5em;
+	color:#fff;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.nav-box{
+	width:900px;
+	height: 100px;
+	text-align: center;
+}
+.con{
+	max-width: 650px;
+}
+#myImg{
+	width:90px;
+	height:90px;
+	border-radius: 50%;
+	border-width: 10px;
+	border-style:ridge;
+	border-color:brown;
+	background:url(../images/img1.jpg) no-repeat 0px 0px;
+	margin-top:-15%;
+}
+.section{
+	text-align: center;
+}
+.section1{
+	background: url(../images/a01.jpg) no-repeat;
+	background-size: cover;
+}
+.section1 h1{
+	color:#f2f2f2;
+	font-size: 4em;
+	margin-top:5%;
+}
+.wrap{
+	width: 100%;
+	opacity: 0;
+	/*border: 1px solid #FF0000;*/
+}
+.wrap ul.infor{
+	width: 98%;
+	display: inline-block;
+	margin: 0 auto;
+	list-style: none;
+	color:#fff;
+	max-width: 1000px;
+	/*border: 1px solid #FF0000;*/
+}
+.infor .data-infor{
+    width: 45%;
+    float: left;
+    margin:1em;
+    text-align: center;    
+}
+.data-index{
+	width:65px;
+	height: 65px;
+	background-color: #e75c5d;
+	border-left: 7px solid #b02f30;
+	border-bottom: 7px solid #b02f30;
+	text-transform: uppercase;
+	text-align: center;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+}
+.data-index:hover{
+	background-color: #b02f30;
+	border-left: 7px solid #e75c5d;
+	border-bottom: 7px solid #e75c5d;
+}
+.data-infor .data-img{
+	float: left;
+	width:20%;
+	margin-top:2%;
+}
+.data-infor .data-txt{
+	float: right;
+	width:75%;
+	text-align: left;
+}
+.data-infor .data-txt h1{
+	font-size:1.5em;
+}
+.data-infor .data-txt p{
+	/*width: 80%;*/
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+.data-infor .data-txt p a{
+	color:#fff;
+	text-decoration: none;
+}
+.data-infor .data-txt p a:hover{
+	text-decoration: underline;
+}
+.data-index span{
+	position: absolute;
+	width:65px;
+	top:20px;
+	left: 3px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-family: "microsoft sans serif";
+	font-size:1.3em;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+.section2{
+	background: url(../images/a02.jpg) no-repeat;
+	background-size: cover;
+}
+.section2 h1{
+	color:#fff;
+}
+.section2 h1{
+	margin-top: 10%;	
+	font-size: 2em;
+	margin-left:-1500px;
+}
+.section2 .data-skill{
+	overflow: hidden;
+	margin-top:1000px;
+}
+.data-skill ul.skill-list{
+	list-style: none;
+	display: inline-block;
+	max-width: 1000px;
+	/*border: 1px solid #FF0000;*/
+}
+.data-skill ul.skill-list li{
+	width: 45%;
+	float: left;
+	text-align: left;
+	margin:0 1em;
+	color:#FFF;
+}
+ul.skill-list li p{
+	display: block;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 1em;
+	
+}
+ul.skill-list li .list-area{
+	width:100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	font-size:1.5em;
+    font-weight: bolder;
+}
+.area-yell{
+	background-color:gold;
+}
+.area-oran{
+	background-color: orange;
+}
+.area-green{
+	background-color: limegreen;
+}
+.area-blue{
+	background-color: deepskyblue;
+}
+.section3{
+	background: url(../images/a03.jpg) no-repeat;
+	background-size: cover;
+}
+.section3 .slide-box{
+	display: inline-block;
+	margin-top:5%;
+}
+.section3 .slide-box .slide-item{
+	width: 250px;
+	float: left;
+	margin:0 1em;
+	background-color: #fff;
+	padding-bottom: 5px;
+}
+.section3 .slide-box .slide-item a h3{
+	margin:0;
+	padding:2px;
+}
+.section3 .slide-box .slide-item a{
+	color:#333;
+	text-decoration: none;
+}
+.section3 .slide-box .slide-item a:hover{
+	color:crimson;
+}
+.section3 .slide-box .slide-item p{
+	color:#333;
+	font-size: .9em;
+	margin:0;
+	padding:2px 5px;
+	line-height: 18px;
+	text-align: left;
+}
+.section4{
+	background: url(../images/a04.jpg) no-repeat;
+	background-size: 100%;
+}
+.section4 .slide-school{
+	padding-top: 5%;
+	color:#fff;
+	margin:0 auto;
+	max-width: 1000px;
+	text-align: left;
+}
+.section4 .slide-school p{
+	display: inline-block;
+	margin:0.5em 3em 0 0;
+	line-height: 20px;
+
+}
+.section5{
+	background: url(../images/a05.jpg) no-repeat;
+	background-size: cover;
+}
+.section5 h1{
+	color:#fff;
+}
+.section5 .sec-exprience{
+	background-color: #fff;
+	border-radius: 10px;
+	max-width: 1000px;
+	margin: 0 auto;
+	color:#444;
+	padding:2em 1em;
+	min-height: 200px;
+	opacity: 0;
+}
+.section5 .sec-exprience table{
+	width: 100%;
+	margin: 0 auto;
+	border-collapse:collapse;
+    border-spacing: 0px;
+}
+.section5 .sec-exprience table thead{
+	font-weight: bolder;
+}
+.section5 .sec-exprience table td{
+	width: 25%;
+	border: 1px solid #444;
+}
+.section5 .sec-exprience p{
+	text-align: left;
+}
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {  
+    background: #fff; /*活动导航的颜色*/
+}  
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #fff;/*非活动导航的颜色*/
+    height: 8px;
+    width: 8px;
+    margin: -4px 0 0 -4px;
+}
+.gwidth{
+	width: 100%;
+}
+
+@media only screen and (min-width: ) {
+	
+}
