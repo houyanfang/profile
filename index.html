@@ -3,29 +3,26 @@
 	<head>
 		<title>My web</title>
 		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<!-- Latest compiled and minified CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">		
+	    <script src="js/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrapTheme.css" />
 		<link rel="stylesheet" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/owl.carousel.css" />
+		<link rel="stylesheet" href="css/owl.theme.css" />
 		<link rel="stylesheet" href="css/style.css"  />
 	</head>
 	<body>
-		<div id="header">
-			<ul id="menu" class="nav-box con clearfix">
-				<li data-menuanchor="page1"><a href="#page1">About</a></li>
-				<li data-menuanchor="page2"><a href="#page2">Skills</a></li>
+		<div id="header" class="gwidth">
+			<ul id="menu" class="nav-box clearfix">
+				<li data-menuanchor="page1"><a href="#page1" class="navItem">About</a></li>
+				<li data-menuanchor="page2"><a href="#page2" class="navItem">Skills</a></li>
 				<li data-menuanchor="page3"><a href="#page3" id="myImg"></a></li>
-				<li data-menuanchor="page4"><a href="#page4">Education</a></li>
-				<li data-menuanchor="page5"><a href="#page5">Experience</a></li>
+				<li data-menuanchor="page4"><a href="#page4" class="navItem">Education</a></li>
+				<li data-menuanchor="page5"><a href="#page5" class="navItem">Experience</a></li>
 			</ul>
 		</div>
-		<div class="gwidth">
-			<div class="btn_menu">
-				<span></span>
-				<span></span>
-			</div>
-			
-		</div>
-		
+		<div class="header_holder" id="header_holder"></div>
 		<div id="fullpage">
 			<div class="section section1 active">
 				<h1>I am a full-stack developer </h1>
@@ -109,106 +106,90 @@
 				</div>
 			</div>
 			<div class="section section3">
-				<div class="slide">
-					<div class="slide-box">
-						<div class="slide-item">
-							<img src="images/Cbaiai.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能功能功能</p>
-							</div>
+				<div class="container">
+				<div class="row">
+                 <div class="span12">
+                  <h1>My works </h1>
+				  <div id="owl-example" class="owl-carousel">
+			        <div class="item" >
+			            <img src="images/Cbaiai.jpg" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能功能功能网站功能功能功能网站功能功能功能网站功能功能功能</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Chtml5act.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能功能功能</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Chtml5act.png" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能功能功网站功能功能功能网站功能功能功能网站功能功能功能能</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Cmiway.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能功能功能</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Cmiway.jpg" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能功能网站功能功能功能网站功能功能功能功能</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Czhang.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能功能功能</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Czhang.png" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能功能功网站功能功能功能网站功能功能功能能</p>
 						</div>
-				    </div>
-				</div>
-				<div class="slide">
-					<div class="slide-box">
-						<div class="slide-item">
-							<img src="images/Cbaiai.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Cbaiai.jpg" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Chtml5act.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Chtml5act.png" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Cmiway.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Cmiway.jpg" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Czhang.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Czhang.png" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-				    </div>
-				</div>
-				<div class="slide">
-					<div class="slide-box">
-						<div class="slide-item">
-							<img src="images/Cbaiai.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Cbaiai.jpg" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Chtml5act.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Chtml5act.png" />
+						<div class="slide-txt">
+							<a href="#"><h3>某某外国网站</h3></a>
+							<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
 						</div>
-						<div class="slide-item">
-							<img src="images/Cmiway.jpg" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0-</p>
-							</div>
-						</div>
-						<div class="slide-item">
-							<img src="images/Czhang.png" />
-							<div class="slide-txt">
-								<a href="#"><h3>某某外国网站</h3></a>
-								<p>网站功能网站功能功能功能网站功能功能功能功能功能123456789网站功能功能功能网站功能功能功能0</p>
-							</div>
-						</div>
-				    </div>
-				</div>
+			        </div>
+			     </div>
+			    </div>
+			    </div>
+			    </div>
 			</div>
 			<div class="section section4">
 				<div class="slide">
-					<div class="slide-school">
+				    <h1>Educations</h1>
+					<div class="slide-school" >
 						<img src="images/logo2.jpg" />
 						<p>学校：<span>中原工学院</span></p>
 						<p>时间：<span>2009年~~2011年</span></p>
@@ -218,6 +199,7 @@
 					</div>
 				</div>
 				<div class="slide">
+				    <h1>Educations</h1>
 					<div class="slide-school">
 						<img src="images/logo1.jpg" />
 						<p>学校：<span>北京大学</span></p>
@@ -230,38 +212,45 @@
 			</div>
 			<div class="section section5">
 				<h1>My Experience</h1>
-				<div class="sec-exprience">
-					<table>
-						<thead>
-							<tr>
-								<td>时间</td>
-								<td>单位名称</td>
-								<td>职务</td>
-								<td>项目类型</td>
-							</tr>
-						</thead>
-						<tr>
-							<td>2011.06~2013.10</td>
-							<td>上海先达科技有限公司</td>
-							<td>.net开发组组长</td>
-							<td>打印机系统，大型超市管理系统</td>
-						</tr>
-						<tr>
-							<td>2013.11~至今</td>
-							<td>上海兰飞鱼广告公司</td>
-							<td>开发经理</td>
-							<td>某某酒店管理系统(全世界联网)</td>
-						</tr>
-					</table>
-					<p>注：不是所有项目都在上面哈！</p>
+				<div class="skin_exprience" >
+					<div class="exprience_box" id="exprience_box">
+						<div class="mobile_tip" id="mobile_tip">
+							点击下面透明区域，可切换
+						</div>
+						<a href="javascript:;" class="exprience_prev iconfont">&#xe902;</a>
+						<a href="javascript:;" class="exprience_next iconfont">&#xe903;</a>
+		
+						<div class="exprience_text clearfix">
+							<div class="u_exprience_head">
+								<img src="images/s_cb2.png" alt="">
+							</div>
+							<div class="u_exprience_body">
+								<div class="u_exprience_item">
+									<h2>上海先达</h2>
+									<p>2011.6~~2014.6</p>
+									<p>任职.net软件开发工程师，开发各种桌面应用程序，网站网站等等网站等等网站等等等等</p>
+								</div>
+							</div>
+						</div>
+						<div class="exprience_text clearfix">
+							<div class="u_exprience_head">
+								<img src="images/s_cb2.png" alt="">
+							</div>
+							<div class="u_exprience_body">
+								<div class="u_exprience_item">
+									<h2>MullenLoweProfero</h2>
+									<p>2014.7~~至今</p>
+									<p>任职.net全栈工程师,网站开发网站等等网站等等网站等等网站等等网站等等</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
+			</div>	
 		</div>
-		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/jquery.fullPage.js"></script>
-		<script src="js/move.js"></script>
-		<script src="js/index.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/move.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	<script src="js/index.js"></script>
 	</body>
-	
-	
 </html>
